@@ -22,7 +22,7 @@ header
   margin 0
   padding 0
   width 100%
-  height 40px
+  height 48px
   marco(2px, dashed, red)
 
 #top-bar
@@ -31,8 +31,60 @@ header
   margin 0 auto
   padding 0
   marco(1px, solid, green)
+  display flex
+
+#top-bar-logo
+  width 100px
+  height 100%
+  padding 0
+  margin 0
+  display flex
+  align-items center
+  marco()
+
+#top-bar-login
+  width 160px
+  height 100%
+  margin 0
+  padding 0
+  display flex
+  align-items center
+  marco(1px, solid, red)
+  > img
+    margin-left 15px
+    margin-right 10px
+
+#top-bar-menu
+  margin 0
+  padding 0
+  width 600px
+  height 100%
+  display flex
+  justify-content center
+  align-items center
+  marco()
+  > ul
+    list-style none
+    display flex
+    flex 1
+    justify-content space-around
+    marco(1px, solid, blue)
+    > li > a
+      text-decoration none
+    > li > img
+      margin-left 5px
+      
+#top-bar-search-bar
+  margin-left 10px
+  padding 0
+  display flex
+  justify-content center
+  align-items center
+  > input
+    width 180px
 
 #hidden-zone-background
+  display none
   width 100%
   height 140px
   margin 0
@@ -40,6 +92,7 @@ header
   marco(2px, dashed, black)
 
 #hidden-zone
+  display none
   margin 0 auto
   padding 0
   width 1000px
@@ -47,6 +100,7 @@ header
   marco(2px, dashed, gray)
 
 #header-title-background
+  display none
   width 100%
   height 100px
   margin 0
@@ -54,6 +108,7 @@ header
   marco(2px, dashed, red)
 
 #header-title
+  display none
   width 1000px
   height 100%
   margin 0 auto
@@ -61,6 +116,7 @@ header
   marco(2px, dashed, blue)
 
 #header-bottom-menu-background
+  display none
   width 100%
   height 40px
   margin 0
@@ -68,41 +124,9 @@ header
   marco(2px, dashed, black)
 
 #header-bottom-menu
+  display none
   width 1000px
   height 100%
   margin 0 auto
   padding 0
   marco(2px, dashed, green)
-
-main
-  margin 0
-  padding 0
-  width 100%
-  height 700px
-  marco(3px, double, red)
-
-#main-content
-  display flex
-  margin 0 auto
-  padding 0
-  width 1000px
-  height 100%
-  marco()
-
-#news-content
-  padding 0
-  margin 0
-  width 700px
-  height 100%
-  marco()
-
-#side-content
-  padding 0
-  margin 0
-  width 300px
-  height 100%
-  marco(1px, solid, red)
-
-#search-box
-  border 1px solid black
-  box-sizing border-box
