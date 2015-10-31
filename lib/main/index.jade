@@ -13,7 +13,7 @@ html(lang=es)
             #top-bar-logo
               img(src="./img/bbc-logo.png", alt="logo" width='84px' height='24px')
             #top-bar-login
-              img(src="./img/login-image.png", alt="login image" width='18px' height='18px')
+              img#menuImg(src="./img/login-image.png", alt="login image" width='18px' height='18px')
               p Sign in
             #top-bar-menu
               ul
@@ -29,48 +29,51 @@ html(lang=es)
                   a(href="#") Earth
                 li
                   a(href="#") Travel
-                li
+                li#more
                   a(href="#") More
                   img(src="./img/triangulo.png", alt="Triangulo" widht='15' height='15')   
             #top-bar-search-bar
               input#search-box(type='text' placeholder='Search' name='searchBox' autofocus)
          #hidden-zone-background
            #hidden-zone
-              p Titulo
-              #hidden-zone-links
-                ul.hidden-list
-                  li
-                    a(href="#") Capital
-                  li
-                    a(href="#") Culture
-                  li
-                    a(href="#") Autos
-                  li
-                    a(href="#") Future
-                  li
-                    a(href="#") TV
-                ul.hidden-list
-                  li
-                    a(href="#") Radio
-                  li
-                    a(href="#") CBBC
-                  li
-                    a(href="#") CBeebies
-                  li
-                    a(href="#") Make it Digital
-                  li
-                    a(href="#") Food
-                ul.hidden-list
-                  li
-                    a(href="#") iWonder
-                  li
-                    a(href="#") Bitezie
-                  li
-                    a(href="#") Muisc
-                  li
-                    a(href="#") Nature
-                  li
-                    a(href="#") Local    
+              #hidden-zone-title 
+                p MENU 
+              #hidden-zone-links  
+                table#linkTable
+                  tr  
+                    td
+                      a(href="#") Capital 
+                    td
+                      a(href="#") Culture  
+                    td
+                      a(href="#") Autos  
+                    td
+                      a(href="#") Future  
+                    td
+                      a(href="#") TV  
+                  tr
+                    td
+                      a(href="#") Radio
+                    td
+                      a(href="#") CBBC  
+                    td
+                      a(href="#") CBeebies  
+                    td
+                      a(href="#") Foot  
+                    td
+                      a(href="#") Make it Digital 
+                  tr
+                    td
+                      a(href="#") iWander
+                    td
+                      a(href="#") Bitesize  
+                    td
+                      a(href="#") Music
+                    td
+                      a(href="#") Nature
+                    td
+                      a(href="#") Local
+                                        
          #header-title-background
            #header-title
              p NEWS

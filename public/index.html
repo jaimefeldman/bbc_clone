@@ -12,7 +12,7 @@
       <div id="top-bar-background">
         <div id="top-bar">
           <div id="top-bar-logo"><img src="./img/bbc-logo.png" alt="logo" width="84px" height="24px"></div>
-          <div id="top-bar-login"><img src="./img/login-image.png" alt="login image" width="18px" height="18px">
+          <div id="top-bar-login"><img id="menuImg" src="./img/login-image.png" alt="login image" width="18px" height="18px">
             <p>Sign in</p>
           </div>
           <div id="top-bar-menu">
@@ -23,7 +23,7 @@
               <li><a href="#">Shop</a></li>
               <li><a href="#">Earth</a></li>
               <li><a href="#">Travel</a></li>
-              <li><a href="#">More</a><img src="./img/triangulo.png" alt="Triangulo" widht="15" height="15"></li>
+              <li id="more"><a href="#">More</a><img src="./img/triangulo.png" alt="Triangulo" widht="15" height="15"></li>
             </ul>
           </div>
           <div id="top-bar-search-bar">
@@ -33,29 +33,33 @@
       </div>
       <div id="hidden-zone-background">
         <div id="hidden-zone">
-          <p>Titulo</p>
-          <div id="hidden-zone-links">
-            <ul class="hidden-list">
-              <li><a href="#">Capital</a></li>
-              <li><a href="#">Culture</a></li>
-              <li><a href="#">Autos</a></li>
-              <li><a href="#">Future</a></li>
-              <li><a href="#">TV</a></li>
-            </ul>
-            <ul class="hidden-list">
-              <li><a href="#">Radio</a></li>
-              <li><a href="#">CBBC</a></li>
-              <li><a href="#">CBeebies</a></li>
-              <li><a href="#">Make it Digital</a></li>
-              <li><a href="#">Food</a></li>
-            </ul>
-            <ul class="hidden-list">
-              <li><a href="#">iWonder</a></li>
-              <li><a href="#">Bitezie</a></li>
-              <li><a href="#">Muisc</a></li>
-              <li><a href="#">Nature</a></li>
-              <li><a href="#">Local    </a></li>
-            </ul>
+          <div id="hidden-zone-title"> 
+            <p>MENU </p>
+          </div>
+          <div id="hidden-zone-links"> 
+            <table id="linkTable">
+              <tr> 
+                <td><a href="#">Capital </a></td>
+                <td><a href="#">Culture  </a></td>
+                <td><a href="#">Autos  </a></td>
+                <td><a href="#">Future  </a></td>
+                <td><a href="#">TV  </a></td>
+              </tr>
+              <tr>
+                <td><a href="#">Radio</a></td>
+                <td><a href="#">CBBC  </a></td>
+                <td><a href="#">CBeebies  </a></td>
+                <td><a href="#">Foot  </a></td>
+                <td><a href="#">Make it Digital </a></td>
+              </tr>
+              <tr>
+                <td><a href="#">iWander</a></td>
+                <td><a href="#">Bitesize  </a></td>
+                <td><a href="#">Music</a></td>
+                <td><a href="#">Nature</a></td>
+                <td><a href="#">Local</a></td>
+              </tr>
+            </table>
           </div>
         </div>
       </div>
